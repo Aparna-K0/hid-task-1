@@ -11,10 +11,10 @@
 #Python code (with comments)
 
 # declare provided variables (num1,num2,num3,string1)
-num1 = 99.23
-num2 = 23
-num3 = 150
-string1 = "100"
+num1 = int(input("Enter a number:"))
+num2 = int(input("Enter another number:"))
+num3 = int(input("Enter a different number to the previous two:"))
+string1 = input("Enter a final (different) number:")
 
 # convert variables into their respective formats 
 # convert num1 into an integer and store in variable 'integer_num1'
